@@ -110,7 +110,7 @@ function more(type, weapNum, typeNum, doTotalInc) {
       let s = document.createElement("button");
       s.innerText = "Change To Scout";
       s.addEventListener("click", function () {
-        add("s", 1, 8, false);
+        more("s", 1, 8, false);
         flex.removeChild(elem);
       });
       elem.appendChild(s);
