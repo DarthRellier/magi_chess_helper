@@ -83,6 +83,7 @@ function add(type, weapNum, typeNum, doTotalInc) {
       flex.removeChild(elem);
       if (type == "ki") {
         hasKing = false;
+        total--;
       }
       reShow(type);
       switch (type) {
