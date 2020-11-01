@@ -1,0 +1,32 @@
+<html lang="en">
+  <head>
+    <script src="magi2.js"></script>
+    <style>
+      html {
+        color: inherit;
+      }
+      body {
+        color: inherit;
+      }
+      .flex-box {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: unset;
+        color: inherit;
+      }
+      div {
+        padding: 10;
+      }
+    </style>
+  </head>
+  <body id="body">
+    <button id="a" onclick="more('a',3, 4, true)">New Archer</button>
+    <button id="k" onclick="more('k', 3, 4, true)">New Knight</button>
+    <button id="m" onclick="more('m', 4, 4, true) ">New Mage</button>
+    <button id="f" onclick="more('f', 2, 8, true)">New Farmer</button>
+    <button id="ki" onclick="more('ki',1, 1, true)">New King</button>
+    <br />
+    <div id="flex" class="flex-box"></div>
+  </body>
+</html>
