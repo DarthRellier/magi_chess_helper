@@ -1,3 +1,8 @@
+/* 
+The difference between the files is magi.js and magi2.js are alost exatly 
+the same(one makes the background black the other makes it white) same with magi and magi2.html.
+rules.html is a word doc of the rules
+*/
 let hasKing = false;
 let mWeapons = ["Fire Spellbook", "Water Spellbook", "Earth Spellbook", "Dead"];
 let aWeapons = ["Bow", "Throwing Knife", "Dead"];
