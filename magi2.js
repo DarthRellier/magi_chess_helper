@@ -21,7 +21,7 @@ let mType = 1;
 let kType = 1;
 let fType = 1;
 let total = 0;
-function more(type, weapNum, typeNum, doTotalInc) {
+function add(type, weapNum, typeNum, doTotalInc) {
   let posNum = 1;
   hp = 160;
   let body = document.getElementById("body");
@@ -115,7 +115,7 @@ function more(type, weapNum, typeNum, doTotalInc) {
       let s = document.createElement("button");
       s.innerText = "Change To Scout";
       s.addEventListener("click", function () {
-        more("s", 1, 8, false);
+        add("s", 1, 8, false);
         flex.removeChild(elem);
       });
       elem.appendChild(s);
