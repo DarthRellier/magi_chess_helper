@@ -90,6 +90,7 @@ function add(type, weapNum, typeNum, doTotalInc) {
       if (type == "ki") {
         hasKing = false;
       }
+      total--;
       reShow(type);
       switch (type) {
         case "a":
