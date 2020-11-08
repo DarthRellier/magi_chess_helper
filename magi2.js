@@ -8,8 +8,8 @@ let mWeapons = ["Fire Spellbook", "Water Spellbook", "Earth Spellbook", "Dead"];
 let aWeapons = ["Bow", "Throwing Knife", "Dead"];
 let kWeapons = ["Sword", "Lance", "Dead"];
 let fWeapons = ["Pitchfork", "Dead"];
-let sWeapons = ["2 Slice Dagger"];
-let kiWeapons = ["None"];
+let sWeapons = ["2 Slice Dagger", "Dead"];
+let kiWeapons = ["None", "Dead"];
 let maxHpFromKi = 0;
 let maxHpFromA = 20;
 let maxHpFromK = 10;
@@ -115,7 +115,7 @@ function add(type, weapNum, typeNum, doTotalInc) {
       let s = document.createElement("button");
       s.innerText = "Change To Scout";
       s.addEventListener("click", function () {
-        add("s", 1, 8, false);
+        add("s", 2, 8, false);
         flex.removeChild(elem);
       });
       elem.appendChild(s);
