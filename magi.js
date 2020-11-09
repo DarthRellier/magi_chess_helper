@@ -81,6 +81,16 @@ function add(type, weapNum, typeNum, doTotalInc) {
     elem.insertBefore(l2, sel2);
     let br2 = document.createElement("br");
     elem.appendChild(br2);
+    let burnTime = document.createElement("input");
+    burnTime.type = "number";
+    burnTime.innerText = 0;
+    elem.appendChild(burnTime);
+    let burnTimeLabel = document.createElement("label");
+    burnTimeLabel.htmlFor = burnTime;
+    burnTimeLabel.innerText = "Turns Left In Burn";
+    elem.insertBefore(burnTimeLabel, burnTime);
+    let br3 = document.createElement("br");
+    elem.appendChild(br3);
     let button = document.createElement("button");
     button.innerText = "Remove";
     button.style.backgroundColor = "white";
