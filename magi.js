@@ -83,7 +83,7 @@ function add(type, weapNum, typeNum, doTotalInc) {
     elem.appendChild(br2);
     let burnTime = document.createElement("input");
     burnTime.type = "number";
-    burnTime.value = 0;
+    burnTime.value = "0";
     elem.appendChild(burnTime);
     let burnTimeLabel = document.createElement("label");
     burnTimeLabel.htmlFor = burnTime;
