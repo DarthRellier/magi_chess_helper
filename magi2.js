@@ -97,7 +97,7 @@ function add(type, weapNum, typeNum, doTotalInc) {
     button.style.backgroundColor = "black";
     button.addEventListener("click", function () {
       flex.removeChild(elem);
-      body.style.color = "red";
+      body.style.backgroundColor = "red";
       setTimeout(clear, 250);
       if (type == "ki") {
         hasKing = false;
